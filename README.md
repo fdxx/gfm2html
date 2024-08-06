@@ -1,7 +1,7 @@
 # About
 A bash script. Converts [GitHub Flavored Markdown (gfm)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github) to HTML using the [Github API](https://docs.github.com/en/rest/markdown/markdown)
 
-# [Preview](https://fdxx.github.io/helloworld.html)
+## [Preview](https://fdxx.github.io/gfm2html/helloworld.html)
 
 # Usage
 ```bash
