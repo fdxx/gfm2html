@@ -26,7 +26,9 @@ jobs:
       - name: Converts helloworld.md
         working-directory: src
         run: |
-          sudo apt update && sudo apt install curl ripgrep jq yq
+          sudo apt update && sudo apt install ripgrep
+          sudo wget https://github.com/jqlang/jq/releases/latest/download/jq-linux-amd64 -O /usr/bin/jq && sudo chmod +x /usr/bin/jq
+          sudo wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/bin/yq && sudo chmod +x /usr/bin/yq
           mkdir output
           bash gfm2html.sh helloworld.md > output/helloworld.html
 

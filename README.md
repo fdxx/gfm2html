@@ -50,5 +50,7 @@ description: 'This is a description.'
 
 ```bash
 # Try installing dependencies from debian.
-apt update && apt install curl ripgrep jq yq
+apt update && apt install ripgrep
+wget https://github.com/jqlang/jq/releases/latest/download/jq-linux-amd64 -O /usr/bin/jq && chmod +x /usr/bin/jq
+wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/bin/yq && chmod +x /usr/bin/yq
 ```

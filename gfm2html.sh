@@ -62,10 +62,10 @@ META_KEYWORDS=""
 META_DESCRIPTION=""
 
 if [ -n "$META" ]; then
-    META_TITLE=$(echo "$META" | yq -j '.title // ""')
-    META_AUTHOR=$(echo "$META" | yq -j '.author // ""')
-    META_KEYWORDS=$(echo "$META" | yq -j '.keywords // ""')
-    META_DESCRIPTION=$(echo "$META" | yq -j '.description // ""')
+    META_TITLE=$(echo "$META" | yq '.title // ""')
+    META_AUTHOR=$(echo "$META" | yq '.author // ""')
+    META_KEYWORDS=$(echo "$META" | yq '.keywords // ""')
+    META_DESCRIPTION=$(echo "$META" | yq '.description // ""')
 fi
 
 # If empty, Try setting the first title to META_TITLE.
