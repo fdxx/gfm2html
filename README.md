@@ -1,6 +1,8 @@
 # About
 A bash script. Converts [GitHub Flavored Markdown (gfm)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github) to HTML using the [Github API](https://docs.github.com/en/rest/markdown/markdown)
 
+# [Preview](https://fdxx.github.io/helloworld.html)
+
 # Usage
 ```bash
 Usage: ./gfm2html.sh [OPTIONS] <input>"
